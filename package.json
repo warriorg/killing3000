@@ -1,0 +1,24 @@
+{
+  "name": "killing3000",
+  "version": "1.0.0",
+  "description": "开发人员的要你命3000",
+  "main": "src/app.ts",
+  "scripts": {
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "electron ./src/app.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warriorg/killing3000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warriorg/killing3000/issues"
+  },
+  "homepage": "https://github.com/warriorg/killing3000#readme",
+  "devDependencies": {
+    "electron": "^5.0.2"
+  }
+}
