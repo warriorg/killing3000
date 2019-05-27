@@ -4,6 +4,7 @@ const Component = require('./Component');
 const Hash = function () {}
 
 Hash.prototype = new Component()
+module.exports = new Hash()
 
 Hash.prototype.inputChange = function(e) {
     const text = e.target.value
@@ -69,4 +70,3 @@ Hash.prototype.render = function () {
     return html
 }
 
-module.exports = new Hash();

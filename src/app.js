@@ -3,10 +3,11 @@ let win
 
 function createWindow () {
   win = new BrowserWindow({
-    width: 1200,
+    width: 1280,
     height: 700,
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      webviewTag: true
     }
   })
 

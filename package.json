@@ -2,10 +2,18 @@
   "name": "killing3000",
   "version": "1.0.0",
   "description": "开发人员的要你命3000",
-  "main": "src/app.ts",
+  "main": "src/app.js",
   "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "start": "electron ./src/app.js"
+  },
+  "build": {
+    "appId": "killing300",
+    "mac": {
+      "category": "tools"
+    }
   },
   "type": "module",
   "repository": {
@@ -19,6 +27,7 @@
   },
   "homepage": "https://github.com/warriorg/killing3000#readme",
   "devDependencies": {
-    "electron": "^5.0.2"
+    "electron": "^5.0.2",
+    "electron-builder": "^20.41.0"
   }
 }
