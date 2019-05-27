@@ -12,7 +12,7 @@ body {
 
 .main-container {
     width: 100%;
-    height: cala(100% - 60px)
+    height: calc(100% - 60px)
 }
 
 .text-input {
